@@ -25,7 +25,7 @@
     </div>
     <div class="nav">
       <div>
-        <a href="./index.html">Главная</a>
+        <a href="./index.php">Главная</a>
       </div>
       <div>
         <a>Прайс</a>
@@ -37,7 +37,7 @@
         <a href="./order.html">Заказ</a>
       </div>
       <div>
-        <a href="./contacts.html">Контакты</a>
+        <a href="./contacts.php">Контакты</a>
       </div>
     </div>
   </header>

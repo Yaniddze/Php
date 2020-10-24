@@ -27,7 +27,7 @@
     </div>
     <div class="nav">
       <div>
-        <a href="./index.html">Главная</a>
+        <a href="./index.php">Главная</a>
       </div>
       <div>
         <a href="./price.php">Прайс</a>
@@ -44,6 +44,13 @@
     </div>
   </header>
   <main>
+      <?php
+        $price1 = fopen("./content/Contacts.txt", "r") or die("Unable to open file!");
+        $file1 = fread($price1,filesize("./content/Contacts.txt"));
+        fclose($price1);
+
+        echo $file1;
+      ?>
     <p>
       Адрес: Красная 63,к.6 <br>
       Университетская Набережная, 40 <br>
