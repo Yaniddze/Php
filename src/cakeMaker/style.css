@@ -36,6 +36,11 @@ header > .nav > div {
   color: brown;
 }
 
+header a {
+  color: brown;
+  text-decoration: none;
+}
+
 .slider {
   background: #FAF8EC;
 }
