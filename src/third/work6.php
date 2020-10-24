@@ -30,8 +30,8 @@
 
     echo '<pre>'.print_r($gr, true).'</pre>';
 
-    echo '<div> В группе 1 '.count($gr["Группа 1"]).' человек</div>';
-    echo '<div> В группе 2 '.count($gr["Группа 2"]).' человек</div>';
+    echo '<div> В '.array_keys($gr)[0].' - '.count($gr[array_keys($gr)[0]]).' человек</div>';
+    echo '<div> В '.array_keys($gr)[1].' - '.count($gr[array_keys($gr)[1]]).' человек</div>';
 ?>
 Мой код
   <div class="script">
@@ -58,8 +58,9 @@
 
     echo '<pre>'.print_r($gr, true).'</pre>';
 
-    echo '<div> В группе 1 '.count($gr["Группа 1"]).' человек</div>';
-    echo '<div> В группе 2 '.count($gr["Группа 2"]).' человек</div>';
+    echo '<div> В '.array_keys($gr)[0].' - '.count($gr[array_keys($gr)[0]]).' человек</div>';
+    echo '<div> В '.array_keys($gr)[1].' - '.count($gr[array_keys($gr)[1]]).' человек</div>';
+
 ?>
 EOF
 );
